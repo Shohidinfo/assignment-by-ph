@@ -4,11 +4,11 @@
   box-sizing: border-boxs;
 }
 
-* {
+body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+ 
+ 
 }
 .header{
     background-color: #FFFFFF ;
@@ -17,6 +17,9 @@
     justify-content: space-between;
     padding: 16px 120px ;
     /* background-color: rebeccapurple; */
+    /* width: 1600px; 
+    height: 92px; */
+    margin: 0 auto;
 }
 .nav-menu {
     list-style: none;
@@ -40,20 +43,206 @@
 .nav-right-button li{
     list-style: none;
 }
-.nav-right-button .btn {
+.btn {
      list-style: none;
      font-size: 16px ;
      border-radius: 4px;
      width: 164px;
      height: 44px;
-     background-color: #116333;
+     background-color: #27b864;
      color: #FFFFFF;
      font-weight: 800;
-    border: none;
+     border: none;
     cursor: pointer;
 
 }
 .nav-right-button .btn:hover{
-    background-color: #0fb353;
+    background-color:#1e40af;
 }
+#banner{
+
+    background-image: url(../assets/hero-bg.png);
+    /* height: 1080px; */
+    background-size: cover;
+    /* width: 1600px; */
+    /* height: 674px; 
+    margin: 0 auto;
+     */
+    padding: 120px; 
+    height: 480px;
+}
+
+
+#banner .banner-container h1 {
+  font-size: 78px;
+  font-family: 800;
+  text-align: center;
+  color: white;
+  margin: 16px 0;
+  text-transform: capitalize;
+}
+
+#banner .banner-container h1 span {
+  color: #30b868;
+}
+
+#banner .banner-description-mid {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.banner-top-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  width: 230px;
+  margin: auto;
+  border-radius: 30px;
+  padding: 8px 12px;
+  
+}
+
+.banner-top-circle .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #30b868;
+  border-radius: 50%;
+  box-shadow: 0px 0px 13px 2px #30b869;                                    
+}
+.banner-top-circle .circle p {
+  font-size: 16px;
+  color: #30b868;
+  font-weight: 500;
+}
+
+.button-mid {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btn-left{
+    color:  rgba(255, 255, 255, 1);
+    border: 1px solid rebeccapurple;
+    font-style:  Semi Bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    width: 189px;
+    height: 19px;
+    padding: 12px 16px 12px 16px;
+    background-color: #27b864;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.btn-right{
+    color:  rgba(255, 255, 255, 1);
+    border: 1px solid  rgba(255, 255, 255, 1);
+    font-style:  Semi Bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    width: 189px;
+    height: 19px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    
+}
+.button-mid .btn-left:hover ,.btn-right:hover{
+    background-color:#1e40af ;
+}
+.notes .notes-heading h2{
+    font-style: bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 80px;
+    /* margin: 80px; */
+    color: #001931;
+    
+}
+
+.notes .notes-heading p{
+    color: #627382;
+    font-size: 16px;
+    /* font-style: regular ; */
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 44px;
+}
+.card-section{
+    margin-top: 44px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+
+
+}
+.card-section .card-box{
+    width: 322px;
+    height: 300px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    /* gap: 24px;
+    padding: x; 16p */
+    border-radius: 8px;
+    box-shadow: 0px -10px 15px 0px #dad8d8a5;
+}
+.card-section .card-box h4{
+    font-style: semi bold ;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #001931;
+     margin-bottom: 10px;
+}
+
+
+.card-section .card-box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #627382 ;
+}
+
+
+.card-box .card-imge{
+  width: 50px;
+  height: 50px;
+  background-color: #F95555;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ 
+}
+
 
