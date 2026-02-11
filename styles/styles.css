@@ -244,5 +244,63 @@ body {
   margin: auto;
  
 }
+.brain-section{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
+    gap: 60px;
+    padding-left: 170px;
+    border-radius: 12px;
+    
+}
+.brain-section .head-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #30b868;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.brain-section .brain-right-side h2{
+    color: #001931;
+    font-style: bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    gap: 12px;
+    padding-bottom: 16px;
+}
+
+.brain-section .text-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #627382;
+    padding-bottom: 40px;
+}
+.solution-list .check-mark{
+    display: flex;
+    padding: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.solution-list .check-mark img{
+  /* padding: 10px; */
+    padding-right: 10px;
+}
+
+
+
 
 
